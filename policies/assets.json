@@ -3,21 +3,21 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "EMV-AU", 
+            "course": "physc02", 
             "name": "Amrita-Electricity___Magnetism_Virtual_Lab.JPG", 
-            "org": "Amrita-University", 
+            "org": "Virtual-Labs", 
             "revision": null, 
             "run": "Anytime", 
             "tag": "c4x"
         }, 
         "displayname": "Amrita-Electricity & Magnetism Virtual Lab.JPG", 
-        "filename": "asset-v1:Amrita-University+EMV-AU+Anytime+type@asset+block@Amrita-Electricity___Magnetism_Virtual_Lab.JPG", 
+        "filename": "asset-v1:Virtual-Labs+physc02+Anytime+type@asset+block@Amrita-Electricity___Magnetism_Virtual_Lab.JPG", 
         "import_path": "Amrita-Electricity & Magnetism Virtual Lab.JPG", 
         "locked": false, 
         "thumbnail_location": [
             "c4x", 
-            "Amrita-University", 
-            "EMV-AU", 
+            "Virtual-Labs", 
+            "physc02", 
             "thumbnail", 
             "Amrita-Electricity___Magnetism_Virtual_Lab-JPG.jpg", 
             null
@@ -27,21 +27,21 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "EMV-AU", 
+            "course": "physc02", 
             "name": "icons_Population_Ecology.png", 
-            "org": "Amrita-University", 
+            "org": "Virtual-Labs", 
             "revision": null, 
             "run": "Anytime", 
             "tag": "c4x"
         }, 
         "displayname": "icons_Population Ecology.png", 
-        "filename": "asset-v1:Amrita-University+EMV-AU+Anytime+type@asset+block@icons_Population_Ecology.png", 
+        "filename": "asset-v1:Virtual-Labs+physc02+Anytime+type@asset+block@icons_Population_Ecology.png", 
         "import_path": "icons_Population Ecology.png", 
         "locked": false, 
         "thumbnail_location": [
             "c4x", 
-            "Amrita-University", 
-            "EMV-AU", 
+            "Virtual-Labs", 
+            "physc02", 
             "thumbnail", 
             "icons_Population_Ecology-png.jpg", 
             null

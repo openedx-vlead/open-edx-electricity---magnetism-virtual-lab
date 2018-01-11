@@ -1,5 +1,5 @@
 <p><button onclick="popup()">Full Screen</button></p>
-<p><iframe src="http://emv-au.vlabs.ac.in/Van_De_Graaff_Generator/experiment.html" height="602" width="802"> </iframe></p>
+<p><iframe src="http://emv-au.vlabs.ac.in/Van_De_Graaff_Generator/experiment.html" width="802" height="602"> </iframe></p>
 <script>// <![CDATA[
 function popup(){
  window.open('http://emv-au.vlabs.ac.in/Van_De_Graaff_Generator/experiment.html', '_blank', 'toolbar=0,location=0,menubar=0');
@@ -9,12 +9,20 @@ function popup(){
 // ****** ALSO MODIFY THE URLS GIVEN ABOVE **************
 // ********MODIFY THIS SECTION **************************
 
-var courseid = "EMV-AU";
-var experiment_name = "Van De Graaff Generator"
-var lab_name = "Electricity & Magnetism Virtual Lab"
- 
-// *******DO NOT MODIFY THIS SECTION AGAIN **************
+var lab_id = "physc02"; 
+var exp_name = "Van De Graaff Generator"
+var lab_name = "Electricity and Magnetism Virtual Lab"
+var user_id = "%%USER_ID%%"; //get the User ID as a string  
+var exp_id = "e99970"
+
+var server_url = "http://analytics-api.vlabs.ac.in:4000/"
+
+var xhttp = new XMLHttpRequest();
+var urlstr = server_url + user_id + "," + lab_id + "," + lab_name + "," + exp_id + "," + exp_name
+xhttp.open("GET", urlstr, true);
+xhttp.send();
+
+// *******DO NOT MODIFY THIS SECTION AGAIN ************
 // ]]></script>
-<script src="https://github.com/openedx-vlead/lab-usage-tracker/blob/master/src/common.js"></script>
 <p></p>
 <p></p>
